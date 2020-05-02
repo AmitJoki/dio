@@ -11,11 +11,7 @@ import 'cancel_token.dart';
 import 'transformer.dart';
 import 'response.dart';
 import 'dio_error.dart';
-import 'entry_stub.dart'
-// ignore: uri_does_not_exist
-    if (dart.library.html) 'entry/dio_for_browser.dart'
-// ignore: uri_does_not_exist
-    if (dart.library.io) 'entry/dio_for_native.dart';
+import 'entry/dio_for_native.dart';
 
 /// A powerful Http client for Dart, which supports Interceptors,
 /// Global configuration, FormData, File downloading etc. and Dio is
